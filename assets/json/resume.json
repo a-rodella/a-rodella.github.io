@@ -1,36 +1,36 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Andrea Rodella",
+    "label": "PhD",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "andrea.rodella@uniroma1.it",
+    "phone": "",
+    "url": "https://a-rodella.github.io/",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Via Eudossiana 18",
+      "postalCode": " 00184",
+      "city": "Rome",
+      "countryCode": "IT",
+      "region": "Lazium"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "", //"Twitter",
+        "username": "", //"AlbertEinstein",
+        "url": "" //"https://twitter.com/AlbertEinstein"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Department of Structural and Geotechnical Engineering, Sapienza University of Rome",
+      "position": "Postdoctoral Research Fellow",
+      // "url": "https://example.com",
+      // "startDate": "1933-01-01",
+      // "endDate": "1955-01-01",
+      // "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Continuum Mechanics"]
     }
   ],
   "volunteer": [
