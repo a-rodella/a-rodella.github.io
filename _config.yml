@@ -7,14 +7,14 @@ first_name: Andrea
 middle_name: 
 last_name: Rodella
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  # You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: computational mechanics, mechanics of materials, fracture mechanics, fatigue, cohesive zone models, phase-field fracture, constitutive modeling, variational methods, finite element method, damage mechanics, plasticity, microstructured materials, solid mechanics # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon2.png #⚛️  the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -54,7 +54,7 @@ external_services:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
@@ -71,6 +71,54 @@ max_width: 930px
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
+
+# # -----------------------------------------------------------------------------
+# # Social integration
+# # -----------------------------------------------------------------------------
+
+# acm_id: # your dl.acm.org/profile/id
+# blogger_url: # your blogger URL
+# bluesky_url: # your bluesky URL
+# dblp_url: # your DBLP profile url
+# discord_id: # your discord id (18-digit unique numerical identifier)
+# facebook_id: # your facebook id
+# flickr_id: # your flickr id
+# github_username: a-rodella # your GitHub user name
+# gitlab_username: andrea.rodella1 # your GitLab user name
+# ieee_id: # your ieeexplore.ieee.org/author/id
+# inspirehep_id: # Inspire HEP author ID
+# instagram_id: # your instagram id
+# kaggle_id: # your kaggle id
+# keybase_username: # your keybase user name
+# lastfm_id: # your lastfm id
+# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+# linkedin_username: andrea-rodella-b47b7827 # your LinkedIn user name
+# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+# medium_username: # your Medium username
+# orcid_id: 0000-0003-4321-313X # your ORCID ID
+# osf_id: # your OSF ID
+# pinterest_id: # your pinterest id
+# publons_id: GLS-8181-2022 # your ID on Publons
+# quora_username: # your Quora username
+# research_gate_profile: Andrea-Rodella # your profile on ResearchGate
+# scholar_userid: YVbhCDQAAAAJ # your Google Scholar ID
+# scopus_id: 57193546497 # your profile on Scopus
+# semanticscholar_id: # your Semantic Scholar ID
+# spotify_id: # your spotify id
+# stackoverflow_id: # your stackoverflow id
+# telegram_username: # your Telegram user name
+# unsplash_id: # your unsplash id
+# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+# wikidata_id: # your wikidata id
+# wikipedia_id: # your wikipedia id (Case sensitive)
+# work_url: # work page URL
+# x_username: # your X handle
+# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+# zotero_username: # your zotero username
+
+# contact_note: # You can even add a little note about which of these is the best way to reach you.
+
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -290,8 +338,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Rodella]
+  first_name: [Andrea, A.]
 
   style: apa
   locale: en
@@ -313,6 +361,8 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  sort_by: year,month
+  order: descending,descending
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -325,10 +375,11 @@ enable_publication_badges:
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
   [
-    abbr,
+    aabbr,
     abstract,
     additional_info,
     altmetric,
+    dimensions,
     annotation,
     arxiv,
     award,
@@ -336,14 +387,10 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
-    dimensions,
-    eprint,
     google_scholar_id,
-    hal,
     html,
     inspirehep_id,
     pdf,
-    pmid,
     poster,
     preview,
     selected,
@@ -351,10 +398,11 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
+    month,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
