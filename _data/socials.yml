@@ -1,13 +1,14 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
+# cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: andrea.rodella@uniroma1.it # your email address
-github_username: a-rodella # your GitHub user name
-gitlab_username: andrea.rodella1 # your GitLab user name
 linkedin_username: andrea-rodella-b47b7827 # your LinkedIn user name
-orcid_id: 0000-0003-4321-313X # your ORCID ID
-publons_id: GLS-8181-2022 # your ID on Publons
 research_gate_profile: Andrea-Rodella # your profile on ResearchGate
 scholar_userid: YVbhCDQAAAAJ # your Google Scholar ID
 scopus_id: 57193546497 # your profile on Scopus
+orcid_id: 0000-0003-4321-313X # your ORCID ID
+# hal_id: andrea-rodella # TODO: your profile on HAL
+publons_id: GLS-8181-2022 # your ID on Publons
+github_username: a-rodella # your GitHub user name
+gitlab_username: andrea.rodella1 # your GitLab user name
