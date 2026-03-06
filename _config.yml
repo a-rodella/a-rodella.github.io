@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: computational mechanics, mechanics of materials, fracture mechanics, fatigue, cohesive zone models, phase-field fracture, constitutive modeling, variational methods, finite element method, damage mechanics, plasticity, microstructured materials, solid mechanics # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon2.png #⚛️  the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png #⚛️  the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://a-rodella.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

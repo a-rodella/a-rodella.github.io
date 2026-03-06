@@ -9,7 +9,7 @@ profile:
   image: ar_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p><a href='mailto:andrea.rodella@uniroma1.it'>andrea.rodella@uniroma1.it</a></p>
+    <p><a href='mailto:andrea.rodella@gmail.com'>andrea.rodella@gmail.com</a></p>
     
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -26,7 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher at Sapienza University of Rome working on constitutive modeling and variational methods for the mechanics of materials, with a focus on fracture, fatigue, and micro-structured media. 
+I am an **Ingénieur Chercheur** (CEA Paris-Saclay) working on **irradiation-induced cracking** in brittle-matrix materials with **swelling inclusions** within the **VESTALE** project.  
+My research builds on **constitutive modeling and variational methods for the mechanics of materials**, with a focus on **fracture, fatigue, and micro-structured media**.
+
+<!-- I am a researcher at Sapienza University of Rome working on constitutive modeling and variational methods for the mechanics of materials, with a focus on fracture, fatigue, and micro-structured media.  -->
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

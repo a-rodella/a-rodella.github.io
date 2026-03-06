@@ -17,6 +17,27 @@ I work at the intersection of **computational mechanics** and **variational meth
 
 <div class="row">
 
+<!-- 0) VESTALE / CEA + Sorbonne -->
+<div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="card h-100 shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title mb-2">VESTALE · irradiation-induced cracking</h5>
+            <p class="card-text">
+                Cracking of brittle-matrix materials with <strong>swelling inclusions</strong> under
+                <strong>self-irradiation</strong>, with emphasis on glass-ceramics for nuclear waste confinement.
+            </p>
+            <div class="mb-2">
+                <span class="badge badge-pill badge-light">fracture</span>
+                <span class="badge badge-pill badge-light">swelling inclusions</span>
+                <span class="badge badge-pill badge-light">glass-ceramics</span>
+                <span class="badge badge-pill badge-light">irradiation</span>
+            </div>
+            <div class="text-muted small">Read more →</div>
+            <a href="#vestale" class="stretched-link" aria-label="VESTALE details"></a>
+        </div>
+    </div>
+</div>
+
   <!-- 1) Gradient plasticity -->
   <div class="col-12 col-md-6 col-lg-4 mb-4">
     <div class="card h-100 shadow-sm">
@@ -144,6 +165,19 @@ I work at the intersection of **computational mechanics** and **variational meth
   </div>
 
 </div>
+---
+
+## VESTALE · cracking in glass-ceramics with swelling inclusions {#vestale}
+
+In the framework of the **VESTALE** project, **glass-ceramic materials** are being considered for the confinement of **high-level nuclear waste**. A key challenge is the long-term stability of these brittle matrices, and in particular the potential onset of **cracks induced by the swelling of inclusions** under **internal irradiation (self-irradiation)**.
+This line of work investigates **fracture initiation and evolution** driven by irradiation-induced swelling in heterogeneous brittle media, with the goal of identifying critical conditions for fissuration and understanding how microstructural features control damage patterns.
+
+<!-- **Position:** Ingénieur Chercheur (CEA Paris-Saclay), hosted at **Sorbonne Université**. -->
+
+<!-- Image placeholder -->
+<!-- ![VESTALE - cracking driven by swelling inclusions]({{ '/assets/img/research/vestale.png' | relative_url }}){: .img-fluid .rounded } -->
+
+<p class="mb-0"><a href="#top">↑ back to research areas</a></p>
 
 ---
 
