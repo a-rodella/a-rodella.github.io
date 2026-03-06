@@ -73,6 +73,9 @@ ninja.data = [{
           section: "News",},{id: "news-co-organizing-ms11-advances-in-computational-plasticity-damage-and-fracture-at-gimc-simai-young-2026-pisa-3-5-june-2026-click-here-to-submit-an-abstract-details-in-the-book-of-abstracts",
           title: '💼 Co-organizing MS11 – “Advances in Computational Plasticity, Damage and Fracture” at GIMC–SIMAI...',
           description: "",
+          section: "News",},{id: "news-started-a-new-position-as-ingénieur-chercheur-at-cea-paris-saclay-and-sorbonne-université-working-on-irradiation-induced-cracking-in-brittle-matrix-materials-with-swelling-inclusions-project-vestale",
+          title: '💼 Started a new position as Ingénieur Chercheur at CEA Paris-Saclay and Sorbonne...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
