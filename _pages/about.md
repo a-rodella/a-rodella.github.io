@@ -9,7 +9,7 @@ profile:
   image: ar_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p><a href='mailto:andrea.rodella@gmail.com'>andrea.rodella@gmail.com</a></p>
+    <p><a href='mailto:andrea.rodella@dalembert.upmc.fr'>andrea.rodella@dalembert.upmc.fr</a></p>
     
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
